@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImrOS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #222; /* Темный фон для страницы */
+            color: #fff; /* Белый цвет текста */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #111; /* Еще более темный фон для заголовка */
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background: #007BFF;
+            border-radius: 4px;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        section {
+            padding: 20px;
+            background: #333; /* Темный фон для всех секций */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #fff; /* Белый цвет заголовков */
+        }
+        section p, section ul {
+            color: #fff; /* Белый цвет текста */
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        section li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #111; /* Темный фон для подвала */
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .highlight {
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ImrOS</h1>
+        <nav>
+            <a href="#about">О Системе</a>
+            <a href="#features">Функции</a>
+            <a href="#download">Скачать</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>О Системе</h2>
+            <p>Добро пожаловать на страницу, посвященную моей операционной системе. Она разработана с использованием <span class="highlight">Assembly (NASM)</span></p>
+        </section>
+        <section id="features">
+            <h2>Функции</h2>
+            <ul>
+                <li>Поддержка ввода с клавиатуры ⌨️ для удобного взаимодействия с системой.</li>
+                <li>Наличие ядра, обеспечивающего стабильную и эффективную работу системы.</li>
+                <li>Возможность создания и управления новыми строками для гибкости в работе.</li>
+            </ul>
+        </section>
+        <section id="download">
+            <h2>Скачать</h2>
+            <p>Вы можете скачать последнюю версию операционной системы по следующей ссылке:</p>
+            <p><a href="https://github.com/EImran4ik/ImrOS-v.0.1.0/blob/main/ImrOS.ISO" class="highlight" target="_blank">Скачать ImrOS v.0.1.0</a></p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Для получения дополнительной информации или вопросов, пожалуйста, свяжитесь со мной по электронной почте: <a href="mailto:eimran658@gmail.com">eimran658@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        © 2024 ImrOS
+    </footer>
+</body>
+</html>
